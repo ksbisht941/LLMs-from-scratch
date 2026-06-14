@@ -22,3 +22,17 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+
+# ML/Fine-tuning checkpoints and model weights
+*lora*/
+*preference*/
+*instruction*/
+*domain*/
+*output*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.pkl
+**/checkpoint-*/
+
